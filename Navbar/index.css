@@ -1,0 +1,27 @@
+a {
+    color: rgb(33, 153, 153);
+}
+
+#nav {
+    padding-bottom: 69px;
+    padding-top: 68px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+body {
+    margin: 0px;
+}
+
+.navElement {
+    margin-left: 15px;
+    margin-right: 15px;  
+}
+#hood {
+    color: aqua;
+}
+#call{
+    color: green;
+}
+#info{
+color: aquamarine;
+}
