@@ -1,15 +1,49 @@
  <!DOCTYPE html>
         <html>
         <head>
+            <title>
+                EL∆N
+            </title>
             <link rel="stylesheet" type ="text/css" href="index.css" >
         </head>
-        <body>
+        <i>
+            
             <div id="nav">
-                <a class="navElement" id="hood" href="#home">The Hood</a> 
+                <a class="navElement" id="hood" href="/Users/elanesagoff/Desktop/Webdev/index.html">The Hood</a> 
                 <a class="navElement" id="call" href="#home">call up</a> 
                 <a class="navElement" id="info"href="#home">Info</a>
+                <div class='spiralContainer'><div class='spiral'></div></div>
+                <img id= pic"url" ="https://lh6.googleusercontent.com/-KiUKOeM2frQ/T5C1Tw3mT7I/AAAAAAAAALA/L75xdMyEKm0/w1452-h1478/test.jpg"/>
+           
             
             </div>
+            <input id ="world" type="button" value="button"/> 
+            <div id="circle"></div>
+            <div id='button'></div>
+            <div id='result'></div>
         </body>
+       
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <script>
+        var left = 10;
+        var initWidth = 1;    
+        
+        $("#world").click(function() {
+            var text = $(document.createElement("h2"));
+            text.html("Hello World");
+            text.addClass("text");
+            text.attr("id", "text");
+            text.css("margin-left", left + "10px");
+            left = left + 10;
+            $("body").append(text);
+            text.css(width, 10000);
+        })
+        </script>
+        
+
         </html>
         
